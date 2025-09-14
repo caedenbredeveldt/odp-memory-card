@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/superhero/:rest*",
+      "destination": "https://www.superheroapi.com/api.php/:rest*"
+    }
+  ]
+}
