@@ -1,0 +1,45 @@
+.card {
+  background: var(--deep-blue);
+  border: 3px solid var(--primary-red);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px var(--black);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  color: var(--cool-grey);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px var(--bright-yellow);
+  color: var(--bright-yellow);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px 12px 0 0;
+}
+
+.card-title {
+  font-family: "Bangers", cursive;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.card-loading {
+  font-family: "Bangers", cursive;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.card-error {
+  font-family: "Bangers", cursive;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: var(--primary-red);
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 8px;
+}
